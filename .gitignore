@@ -1,0 +1,8 @@
+.env
+airflow_home/
+data/papers.db
+data/markdown/
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/

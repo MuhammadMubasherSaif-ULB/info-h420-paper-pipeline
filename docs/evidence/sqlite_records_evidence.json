@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "filename": "2410.05889.pdf",
+    "title": "Deep Learning-Based Fault Identification in Condition Monitoring",
+    "summary": "This paper presents a Convolutional Neural Network (CNN) based approach for real-time fault identification in rolling element bearings. The authors analyze the interplay between fault identification accuracy and processing time, and propose a CNN model with various image encodings techniques for quick and accurate fault identification. The results show that the proposed CNN model achieves high accuracy and low processing time, making it suitable for real-time fault identification in condition monitoring.",
+    "keywords": "[\"Deep Learning\", \"Condition Monitoring\", \"Fault Identification\", \"Convolutional Neural Network\", \"Image Encoding\", \"Real-time Fault Detection\"]",
+    "category": "Machine Learning",
+    "processed_at": "2026-11-08T13:52:18+00:00"
+  },
+  {
+    "id": 2,
+    "filename": "2101.11539.pdf",
+    "title": "Autoencoder-based Condition Monitoring and Anomaly Detection Method for Rotating Machines",
+    "summary": "This paper proposes an autoencoder-based method for condition monitoring and anomaly detection in rotating machines. The method learns the characteristics of a rotating machine using normal vibration signals and models the healthy state of the machine. A threshold-based approach is then applied to the reconstruction error of unseen data, enabling the detection of unseen anomalies. The proposed method achieves promising results, with an average F1-score of 99.6% on two real-world datasets.",
+    "keywords": "[\"Autoencoder\", \"Condition Monitoring\", \"Anomaly Detection\", \"Rotating Machines\", \"LSTM\", \"Feature Extraction\"]",
+    "category": "Machine Learning",
+    "processed_at": "2026-11-08T13:55:43+00:00"
+  },
+  {
+    "id": 3,
+    "filename": "A-generic-framework-for-scenario-exercises-using-mod_2012_Environmental-Mode.pdf",
+    "title": "A generic framework for scenario exercises using models applied to water-resource management",
+    "summary": "This paper proposes a conceptual and operational framework for scenario exercises in water-resource management, focusing on information flows between scientists and stakeholders. The framework addresses the challenges of translating narrative information into quantitative model input and vice-versa, and presents original solutions to overcome these challenges. The authors illustrate the framework using four case studies and highlight its potential for guiding model development, setting up participatory and model-based assessment studies, and developing and analyzing scenarios.",
+    "keywords": "[\"water-resource management\", \"scenario exercises\", \"models\", \"stakeholder participation\", \"information flows\", \"problem specification\", \"model output transformation\", \"participatory and model-based assessment approaches\"]",
+    "category": "Data Engineering",
+    "processed_at": "2026-11-08T14:30:27+00:00"
+  },
+  {
+    "id": 4,
+    "filename": "A-GIS-tool-for-modeling-anthropogenic-noise-propa_2012_Environmental-Modelli.pdf",
+    "title": "A GIS tool for modeling anthropogenic noise propagation in natural ecosystems",
+    "summary": "This paper introduces SPreAD-GIS, a free, open-source GIS application for modeling anthropogenic noise propagation in natural ecosystems. It automates the manual calculations of the SPreAD model to predict the propagation of sound from one or multiple point sources continuously throughout an area of interest. The tool incorporates commonly available datasets on land cover, topography, and weather conditions to calculate noise propagation patterns and excess noise above ambient conditions for one-third octave frequency bands around one or multiple sound sources.",
+    "keywords": "[\"Anthropogenic noise\", \"Bioacoustics\", \"GIS\", \"Noise model\", \"Noise propagation\", \"Soundscape ecology\"]",
+    "category": "Data Engineering",
+    "processed_at": "2026-11-08T14:30:27+00:00"
+  },
+  {
+    "id": 5,
+    "filename": "A-dynamic-model-for-optimally-phasing-in-CO2-capt_2012_Environmental-Modelli.pdf",
+    "title": "A dynamic model for optimally phasing in CO2 capture and storage infrastructure",
+    "summary": "This paper introduces a new model, SimCCS<sup>TIME</sup> , to optimize the deployment of CO2 capture and storage infrastructure across multiple time periods. The model is designed to be flexible in terms of how much CO2 is captured, transported, and stored in each time period, and considers inter-period tradeoffs and financing and discounting assumptions. The model is an extension of previous SimCCS models and is capable of addressing a range of policy questions related to CCS infrastructure deployment, including the most cost-effective strategy for phasing in a CCS system, the best way to coordinate capacities, and the impact of time on tradeoffs between building high-capacity pipelines and smaller pipelines with more direct routing.",
+    "keywords": "[\"CO2 capture and storage\", \"Infrastructure modeling\", \"Spatiotemporal optimization\", \"Pipeline modeling\", \"Climate-change policy\", \"SimCCS\"]",
+    "category": "Data Engineering",
+    "processed_at": "2026-11-08T14:30:27+00:00"
+  }
+]

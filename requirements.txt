@@ -1,0 +1,6 @@
+# Install Airflow with its official constraints file (see README, step 1), then:
+apache-airflow>=2.10
+pymupdf4llm
+openai>=1.0
+requests
+pytest        # only needed to run the unit tests

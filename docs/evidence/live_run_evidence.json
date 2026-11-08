@@ -1,0 +1,131 @@
+{
+  "airflow_version": "3.4.0",
+  "timezone": "UTC in metadata database; browser displays Europe/Paris",
+  "processed_paper_count": 2,
+  "runs": [
+    {
+      "dag_id": "paper_pipeline",
+      "run_id": "manual__codex_live_20261108T135055Z",
+      "state": "success",
+      "start_date": "2026-11-08 13:52:21.883477",
+      "end_date": "2026-11-08 13:52:25.770017",
+      "run_type": "manual",
+      "task_instances": [
+        {
+          "task_id": "convert_pdf",
+          "region_index": null,
+          "state": "skipped",
+          "start_date": null,
+          "end_date": null
+        },
+        {
+          "task_id": "extract_metadata",
+          "region_index": null,
+          "state": "skipped",
+          "start_date": "2026-11-08 13:52:23.646622",
+          "end_date": "2026-11-08 13:52:23.646622"
+        },
+        {
+          "task_id": "notify_discord",
+          "region_index": null,
+          "state": "skipped",
+          "start_date": "2026-11-08 13:52:24.692886",
+          "end_date": "2026-11-08 13:52:24.692886"
+        },
+        {
+          "task_id": "render_html",
+          "region_index": null,
+          "state": "success",
+          "start_date": "2026-11-08 13:52:24.724252",
+          "end_date": "2026-11-08 13:52:24.960291"
+        },
+        {
+          "task_id": "save_to_db",
+          "region_index": null,
+          "state": "skipped",
+          "start_date": "2026-11-08 13:52:23.649642",
+          "end_date": "2026-11-08 13:52:23.649642"
+        },
+        {
+          "task_id": "scan_new_pdfs",
+          "region_index": null,
+          "state": "success",
+          "start_date": "2026-11-08 13:52:22.408611",
+          "end_date": "2026-11-08 13:52:22.697863"
+        }
+      ]
+    },
+    {
+      "dag_id": "paper_pipeline",
+      "run_id": "manual__codex_newfile_20261108T135438Z",
+      "state": "success",
+      "start_date": "2026-11-08 13:54:40.775442",
+      "end_date": "2026-11-08 13:55:45.406628",
+      "run_type": "manual",
+      "task_instances": [
+        {
+          "task_id": "convert_pdf",
+          "region_index": 0,
+          "state": "success",
+          "start_date": "2026-11-08 13:54:41.934986",
+          "end_date": "2026-11-08 13:54:47.430088"
+        },
+        {
+          "task_id": "extract_metadata",
+          "region_index": 0,
+          "state": "success",
+          "start_date": "2026-11-08 13:54:48.934213",
+          "end_date": "2026-11-08 13:55:42.591350"
+        },
+        {
+          "task_id": "notify_discord",
+          "region_index": 0,
+          "state": "success",
+          "start_date": "2026-11-08 13:55:44.317146",
+          "end_date": "2026-11-08 13:55:44.590087"
+        },
+        {
+          "task_id": "render_html",
+          "region_index": null,
+          "state": "success",
+          "start_date": "2026-11-08 13:55:44.317459",
+          "end_date": "2026-11-08 13:55:44.620442"
+        },
+        {
+          "task_id": "save_to_db",
+          "region_index": 0,
+          "state": "success",
+          "start_date": "2026-11-08 13:55:43.468868",
+          "end_date": "2026-11-08 13:55:43.855169"
+        },
+        {
+          "task_id": "scan_new_pdfs",
+          "region_index": null,
+          "state": "success",
+          "start_date": "2026-11-08 13:54:40.812158",
+          "end_date": "2026-11-08 13:54:41.054177"
+        }
+      ]
+    }
+  ],
+  "duplicate_run_check": {
+    "run_id": "manual__codex_live_20261108T135055Z",
+    "run_state": "success",
+    "known_paper_count_after_duplicate": 1,
+    "convert_extract_save_notify_task_states": [
+      "skipped",
+      "skipped",
+      "skipped",
+      "skipped"
+    ]
+  },
+  "new_file_check": {
+    "run_id": "manual__codex_newfile_20261108T135438Z",
+    "run_state": "success",
+    "database_rows_after_new_file": 2,
+    "processed_filenames": [
+      "2101.11539.pdf",
+      "2410.05889.pdf"
+    ]
+  }
+}
